@@ -6,6 +6,10 @@ A concept for making a questionnaire that stores data in RDS and deploys itself 
 * Angular (for simplicity and routing)
 * Workflow (similar to stuff I did in questionair but for JS) - could probably be built relatively easily with promises to avoid nesting hell.
 
+# Markup generation
+
+Assuming the workflow stuff works fine, we'll need a transpiler to turn it into distinct HTML pages. This should actually be pretty trivial using anything akin to StringTemplate or any templating
+
 # Back end
 
 * *Probably* AWS lambda using JS and maybe API gateway? We just want a few easy endpoints like... 
