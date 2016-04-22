@@ -21,6 +21,7 @@ A concept for making a questionnaire that stores data in RDS and deploys itself 
 * S3 for storage (with web site hosting)
 * RDS for storing questionnaire information (Redis would be easiest, plus easy TTL)
 * Ansible playbook to spin things up (maybe also a vagrant file so it can be spun up locally)
+* GitLab for CI? (just for fun)
 
 # Cool things this gives us
 
